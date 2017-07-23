@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		463CC4601F2157460047F434 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CC45F1F2157460047F434 /* AppDelegate.swift */; };
-		463CC4621F2157460047F434 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CC4611F2157460047F434 /* ViewController.swift */; };
+		463CC4621F2157460047F434 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CC4611F2157460047F434 /* RecordSoundsViewController.swift */; };
 		463CC4651F2157460047F434 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 463CC4631F2157460047F434 /* Main.storyboard */; };
 		463CC4671F2157460047F434 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 463CC4661F2157460047F434 /* Assets.xcassets */; };
 		463CC46A1F2157460047F434 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 463CC4681F2157460047F434 /* LaunchScreen.storyboard */; };
+		464F950D1F22B47D00B4E262 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464F950C1F22B47D00B4E262 /* PlaySoundsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		463CC45C1F2157460047F434 /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		463CC45F1F2157460047F434 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		463CC4611F2157460047F434 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		463CC4611F2157460047F434 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		463CC4641F2157460047F434 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		463CC4661F2157460047F434 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		463CC4691F2157460047F434 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		463CC46B1F2157460047F434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		464F950C1F22B47D00B4E262 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				463CC45F1F2157460047F434 /* AppDelegate.swift */,
-				463CC4611F2157460047F434 /* ViewController.swift */,
+				463CC4611F2157460047F434 /* RecordSoundsViewController.swift */,
 				463CC4631F2157460047F434 /* Main.storyboard */,
 				463CC4661F2157460047F434 /* Assets.xcassets */,
 				463CC4681F2157460047F434 /* LaunchScreen.storyboard */,
 				463CC46B1F2157460047F434 /* Info.plist */,
+				464F950C1F22B47D00B4E262 /* PlaySoundsViewController.swift */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
@@ -97,6 +100,7 @@
 					463CC45B1F2157460047F434 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = FPE5LC56E7;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				463CC4621F2157460047F434 /* ViewController.swift in Sources */,
+				463CC4621F2157460047F434 /* RecordSoundsViewController.swift in Sources */,
+				464F950D1F22B47D00B4E262 /* PlaySoundsViewController.swift in Sources */,
 				463CC4601F2157460047F434 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +309,7 @@
 				463CC4701F2157460047F434 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
